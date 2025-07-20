@@ -4,7 +4,7 @@ ADD build-holo.sh /
 
 RUN ./build-holo.sh
 
-FROM ligato/vpp-base:25.06
+FROM ligato/vpp-base:25.06-release
 
 ADD run.sh /
 
